@@ -1,0 +1,26 @@
+<clientscript scriptid="customscript_st_dose_line_indicator">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>ST Allmach DOSE line indicator</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/ST Allmach DOSE line indicator/Client Script/st_cs_dose_line_indicator.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_st_dose_line_indicator">
+      <allemployees>F</allemployees>
+      <alllocalizationcontexts>T</alllocalizationcontexts>
+      <allpartners>F</allpartners>
+      <allroles>F</allroles>
+      <audemployee>[ACCOUNT_SPECIFIC_VALUE]|[ACCOUNT_SPECIFIC_VALUE]</audemployee>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <executioncontext>ACTION|ADVANCEDREVREC|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CONSOLRATEADJUSTOR|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OTHER|PAYMENTGATEWAY|PAYMENTPOSTBACK|PLATFORMEXTENSION|PORTLET|PROMOTIONS|RECORDACTION|RESTLET|RESTWEBSERVICES|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WEBSERVICES|WORKBOOKBUILDER|WORKFLOW</executioncontext>
+      <isdeployed>T</isdeployed>
+      <loglevel>ERROR</loglevel>
+      <recordtype>ESTIMATE</recordtype>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</clientscript>
